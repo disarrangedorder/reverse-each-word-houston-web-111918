@@ -22,5 +22,5 @@ def reverse_each_word (sentence)
     word.reverse!
   end
 
-  arr_words.join(" ") #creates a string
+  # arr_words.join(" ") #creates a string
 end
