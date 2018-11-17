@@ -6,5 +6,5 @@ arr_words = sentence.split #[hello, this, is, a, split, sentence]
       word.reverse
   end
   new_sentence = arr_wrds.join
-  return
+  return new_sentence
 end
