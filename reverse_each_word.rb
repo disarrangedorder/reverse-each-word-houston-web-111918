@@ -1,13 +1,9 @@
-sentence_array = [sent1, sent 2, sent 3, sent 4]
+
 
 def reverse_each_word (sentence)
-
-  sentence.each do |word|
-    word.split()
-    word.reverse
+arr_words = sentence.split #[hello, this, is, a, split, sentence]
+  arr_words.each do |word|
+      word.reverse
   end
-
-
-
-
-end
+  return arr_words
+  end
