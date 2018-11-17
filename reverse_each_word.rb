@@ -6,4 +6,4 @@ arr_words = sentence.split #[hello, this, is, a, split, sentence]
       word.reverse
   end
   return arr_words
-  end
+end
