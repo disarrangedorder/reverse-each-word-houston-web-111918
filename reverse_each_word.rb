@@ -9,5 +9,5 @@ def reverse_each_word (sentence)
       word.reverse
   end
 
-  return arr_words.join(" ") #creates a string
+  arr_words.join(" ") #creates a string
 end
