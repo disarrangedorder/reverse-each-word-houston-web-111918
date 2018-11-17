@@ -5,5 +5,6 @@ arr_words = sentence.split #[hello, this, is, a, split, sentence]
   arr_words.each do |word|
       word.reverse
   end
-  return arr_words
+  new_sentence = arr_wrds.join
+  return 
 end
